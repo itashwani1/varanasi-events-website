@@ -39,7 +39,7 @@ const About = () => (
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Founded over a decade ago, Varanasi Events has grown from a small family-run business into
+              Founded over a decade ago, GangaArtiEvent.in has grown from a small family-run business into
               the city's most trusted event planning company. Our passion for creating unforgettable
               experiences is rooted in the rich cultural heritage of Kashi — the eternal city.
             </p>
@@ -82,7 +82,7 @@ const About = () => (
       <div className="container mx-auto px-4">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-14">
           <p className="text-secondary text-sm tracking-[0.2em] uppercase mb-2">Why Us</p>
-          <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground">Why Choose Varanasi Events</h2>
+          <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground">Why Choose GangaArtiEvent.in</h2>
           <div className="w-20 h-0.5 bg-secondary mx-auto mt-4" />
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">

@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-heading font-bold text-gold mb-3">🪷 Varanasi Events</h3>
+            <h3 className="text-2xl font-heading font-bold text-gold mb-3">🪷 GangaArtiEvent.in</h3>
             <p className="text-sm leading-relaxed">
-              Creating unforgettable celebrations in the holy city of Varanasi. From grand weddings to sacred Ganga Aarti ceremonies.
+              Book VIP Ganga Aarti, Wedding ceremonies, Temple Darshan & sacred Sanskar rituals in the holy city of Varanasi.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-6 border-t border-gold/10 text-center text-xs text-gold-light/50">
-          <p>© {new Date().getFullYear()} Varanasi Events & Wedding Planner. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} GangaArtiEvent.in - All rights reserved.</p>
         </div>
       </div>
     </footer>

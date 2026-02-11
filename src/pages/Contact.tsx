@@ -16,7 +16,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Construct WhatsApp message with form data
     const message = encodeURIComponent(
       `*New Inquiry from Website*\n\n` +
@@ -30,15 +30,15 @@ const Contact = () => {
     );
 
     const whatsappUrl = `https://wa.me/917485002623?text=${message}`;
-    
+
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
 
-    toast({ 
-      title: "Opening WhatsApp...", 
-      description: "Please send the pre-filled message to complete your inquiry." 
+    toast({
+      title: "Opening WhatsApp...",
+      description: "Please send the pre-filled message to complete your inquiry."
     });
-    
+
     // Reset form
     setForm({ name: "", phone: "", email: "", eventType: "", date: "", budget: "", message: "" });
   };
@@ -171,7 +171,7 @@ const Contact = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Varanasi Events Location"
+                  title="GangaArtiEvent.in Location"
                 />
               </div>
             </motion.div>

@@ -9,10 +9,10 @@ import heroWedding from "@/assets/hero-wedding.jpg";
 
 const heroSlides = [
   { image: heroAarti, title: "Sacred Ganga Aarti Ceremonies", subtitle: "Experience divine celebrations on the holy ghats of Varanasi" },
-  { 
+  {
     image: heroWedding,
-    title: "माँ गंगा की दिव्य आरती \n विवाह एवं विशेष अवसरों के लिए", 
-    subtitle: "पारंपरिक विधि • अनुभवी पंडित • पूर्ण वैदिक व्यवस्था" 
+    title: "माँ गंगा की दिव्य आरती \n विवाह एवं विशेष अवसरों के लिए",
+    subtitle: "पारंपरिक विधि • अनुभवी पंडित • पूर्ण वैदिक व्यवस्था"
   },
 ];
 
@@ -58,12 +58,12 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="text-center px-4 max-w-3xl"
           >
-            <p className="text-gold-light text-sm md:text-base tracking-[0.3em] uppercase mb-4">
-              Varanasi's Premier Event Planners
-            </p>
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 leading-tight whitespace-pre-line">
-              {heroSlides[currentSlide].title}
+            <h1 className="text-gold-light text-sm md:text-base tracking-[0.3em] uppercase mb-4 font-normal">
+              Ganga Aarti Booking & Wedding Ritual Services in Varanasi
             </h1>
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 leading-tight whitespace-pre-line">
+              {heroSlides[currentSlide].title}
+            </h2>
             <p className="text-lg md:text-xl text-white/80 mb-8">
               {heroSlides[currentSlide].subtitle}
             </p>

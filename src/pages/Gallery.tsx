@@ -4,17 +4,24 @@ import { X } from "lucide-react";
 import heroAarti from "@/assets/hero-ganga-aarti.jpg";
 import heroWedding from "@/assets/hero-wedding.jpg";
 import aboutImg from "@/assets/about-varanasi.jpg";
+import img1 from "@/assets/img1.jpeg";
+import img2 from "@/assets/img2.jpeg";
+import img3 from "@/assets/img3.jpeg";
+import img4 from "@/assets/img4.jpeg";
+import img5 from "@/assets/img5.jpeg";
+import img6 from "@/assets/img6.jpeg";
 
 const categories = ["All", "Weddings", "Ganga Aarti", "Decor", "Events"];
 
 // Placeholder gallery using generated images
 const galleryItems = [
-  { src: heroAarti, category: "Ganga Aarti", alt: "Ganga Aarti ceremony at Varanasi ghats" },
-  { src: heroWedding, category: "Weddings", alt: "Royal wedding mandap decoration" },
-  { src: aboutImg, category: "Events", alt: "Varanasi aerial view" },
-  { src: heroAarti, category: "Ganga Aarti", alt: "Evening aarti with diyas" },
-  { src: heroWedding, category: "Decor", alt: "Marigold and rose mandap decoration" },
-  { src: aboutImg, category: "Events", alt: "Ghats during festival" },
+  //{ src: heroAarti, category: "Ganga Aarti", alt: "Ganga Aarti ceremony at Varanasi ghats" },
+  { src: img3, category: "Weddings", alt: "Royal wedding mandap decoration" },
+  { src: img5, category: "Events", alt: "Varanasi aerial view" },
+  { src: img2, category: "Ganga Aarti", alt: "Evening aarti with diyas" },
+  { src: img6, category: "Decor", alt: "Marigold and rose mandap decoration" },
+  { src: img4, category: "Events", alt: "Ghats during festival" },
+  { src: img1, category: "Events", alt: "Ghats during festival" },
 ];
 
 const Gallery = () => {

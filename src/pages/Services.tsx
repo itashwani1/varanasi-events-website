@@ -71,9 +71,12 @@ const Services = () => (
                   <div className="flex-1">
                     <h3 className="text-xl font-heading font-bold text-foreground mb-2">{s.title}</h3>
                     <p className="text-muted-foreground text-sm mb-4">{s.desc}</p>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mb-4">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mb-4 justify-center text-center">
                       {s.details.map((d) => (
-                        <span key={d} className="text-xs bg-muted rounded-full px-3 py-1 text-muted-foreground">
+                        <span
+                          key={d}
+                          className="text-xs bg-muted rounded-full px-3 py-1 text-muted-foreground"
+                        >
                           {d}
                         </span>
                       ))}

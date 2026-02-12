@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <span className="text-2xl md:text-3xl font-heading font-bold text-gold">🪷</span>
             <div className="leading-tight">
-              <span className="text-lg md:text-xl font-heading font-bold text-gold">GangaArtiEvent.in</span>
+              <span className="text-lg md:text-xl font-heading font-bold text-gold">Ganga Arti Event</span>
               <span className="hidden sm:block text-[10px] text-gold-light tracking-[0.2em] uppercase">
                 Ganga Aarti & Weddings
               </span>

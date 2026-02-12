@@ -21,7 +21,7 @@ const services = [
     icon: Flower2,
     title: "उपनयन संस्कार (Upnayan Sanskar)",
     desc: "वैदिक विधि द्वारा पवित्र यज्ञोपवीत संस्कार का आयोजन, अनुभवी पंडितों के साथ।",
-    details: ["वैदिक मंत्रोच्चार", "Experienced Priests", "Complete Puja Samagri", "Venue & Decoration", "Photography"],
+    details: ["वैदिक मंत्रोच्चार", "विवाह कार्यक्रम", "मंत्र जाप", "गृह प्रवेश", "Vedic Mantra Chanting", "Complete Puja Samagri"],
   },
   {
     icon: Landmark,
